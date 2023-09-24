@@ -1,0 +1,88 @@
+#progress-bar {
+    width: 300px;
+    height: 10px;
+    cursor: pointer;
+    margin: 40px;
+    background-color: #ffffff;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.gallery-container{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.gallery{
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.9);
+    flex: 1;
+}
+.canvas{
+    margin-left: 10%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 65px;
+
+
+}
+.names{
+    font-family: Verdana, Geneva, sans-serif;
+    margin-left: 40px;
+}
+#song{
+    font-weight: bold;
+}
+#img{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.toggle {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 1px 15px;
+    font-size: 180%;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    color:#000000;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffffff;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+.toggle:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.tools{
+    text-align: center
+}
+#logo{
+    width: 500px;
+    min-height: 50px;
+    border-radius: 50%;
+    background-color: #000000;
+    flex: 1;
+}
+
+.body {
+    overflow-x: hidden;
+
+}

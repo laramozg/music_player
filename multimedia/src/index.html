@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url("img/итити.jpg");
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body >
+<div class="gallery-container">
+    <div class="gallery">
+        <div>
+            <img src="img/1.jpg" alt="Image 1" id="img" width="300" height="300">
+        </div>
+        <div class="names">
+            <p id="song">ЗА ДЕНЬГИ ДА</p>
+            <p id="group">INSTASAMKA</p>
+        </div>
+        <div class="tools">
+            <button id="prev-btn" class="toggle"><</button>
+            <audio src="music/Instasamka.mp3" id="audio"></audio>
+            <button id="play" onclick="toggleAudio()" class="toggle">►</button>
+            <button id="next-btn" class="toggle">></button>
+        </div>
+        <div id="progress-bar" onclick="changeCurrentTime(event)">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <canvas id="canvas" class="canvas"></canvas>
+</div>
+<script src="logic.js"></script>
+<script src="audio.js"></script>
+
+</body>
+</html>
